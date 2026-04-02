@@ -27,3 +27,5 @@
   * Community validators had 80% of votes
   * Core team validators had 20% of votes
   * With the core team shutting down their nodes, we might think we still have enough votes to run the network. Problem is: a substantial amount of community validators were offline or don't have updated their nodes to the latest version, leading us to a state where we have something like 55% of the votes.
+
+[**Terms and legal notice**](readme/terms-and-legal-notice.md)
