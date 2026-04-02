@@ -14,7 +14,7 @@ Instructions remain the same as the [official documentation](https://taraxa.gitb
 ### Requirements
 
 * You need to have docker and docker compose installed.
-* You need 3 x 14 GB of storage (to down
+* You need 30 GB of free storage (to download and extract the archive).
 
 ### Fresh install
 
