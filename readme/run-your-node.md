@@ -22,9 +22,9 @@ Instructions remain the same as the [official documentation](https://taraxa.gitb
 mkdir -p mainnet/config
 cd mainnet
 
-wget https://raw.githubusercontent.com/tara-legacy-initiative/dev-ops/main/docker/compose.yaml -O compose.yaml
-wget https://raw.githubusercontent.com/tara-legacy-initiative/dev-ops/main/docker/snapshot-init.sh -O snapshot-init.sh
-wget https://raw.githubusercontent.com/tara-legacy-initiative/dev-ops/main/docker/mainnet.json -O config/mainnet.json
+wget https://raw.githubusercontent.com/tara-community-initiative/dev-ops/main/docker/compose.yaml -O compose.yaml
+wget https://raw.githubusercontent.com/tara-community-initiative/dev-ops/main/docker/snapshot-init.sh -O snapshot-init.sh
+wget https://raw.githubusercontent.com/tara-community-initiative/dev-ops/main/docker/mainnet.json -O config/mainnet.json
 
 docker compose up -d
 docker compose logs
