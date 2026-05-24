@@ -6,6 +6,18 @@
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>Run your node</strong></td><td>Basic information to help running your node</td><td><a href="readme/run-your-node.md">run-your-node.md</a></td><td><a href="https://images.unsplash.com/photo-1560732488-6b0df240254a?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw2fHxzZXJ2ZXJ8ZW58MHx8fHwxNzc1MTE5ODY0fDA&#x26;ixlib=rb-4.1.0&#x26;q=85">https://images.unsplash.com/photo-1560732488-6b0df240254a?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw2fHxzZXJ2ZXJ8ZW58MHx8fHwxNzc1MTE5ODY0fDA&#x26;ixlib=rb-4.1.0&#x26;q=85</a></td></tr><tr><td><strong>Wallet setup</strong></td><td>Configure Metamask</td><td><a href="readme/metamask-configuration.md">metamask-configuration.md</a></td><td><a href="https://images.unsplash.com/photo-1729860646597-70bfeb9f775a?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxtZXRhbWFza3xlbnwwfHx8fDE3NzU1Njk5Mjh8MA&#x26;ixlib=rb-4.1.0&#x26;q=85">https://images.unsplash.com/photo-1729860646597-70bfeb9f775a?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxtZXRhbWFza3xlbnwwfHx8fDE3NzU1Njk5Mjh8MA&#x26;ixlib=rb-4.1.0&#x26;q=85</a></td></tr><tr><td><strong>RPC cluster</strong></td><td>Join the party (incoming)</td><td></td><td><a href="https://images.unsplash.com/photo-1580106815433-a5b1d1d53d85?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHxzZXJ2ZXJ8ZW58MHx8fHwxNzc1MTE5ODY0fDA&#x26;ixlib=rb-4.1.0&#x26;q=85">https://images.unsplash.com/photo-1580106815433-a5b1d1d53d85?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHxzZXJ2ZXJ8ZW58MHx8fHwxNzc1MTE5ODY0fDA&#x26;ixlib=rb-4.1.0&#x26;q=85</a></td></tr><tr><td><strong>Other services</strong></td><td>Indexer, explorer, ... (incoming)</td><td></td><td><a href="https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxuZXR3b3JrfGVufDB8fHx8MTc3NTEzMDY1M3ww&#x26;ixlib=rb-4.1.0&#x26;q=85">https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxuZXR3b3JrfGVufDB8fHx8MTc3NTEzMDY1M3ww&#x26;ixlib=rb-4.1.0&#x26;q=85</a></td></tr></tbody></table>
 
+## Node upgrade to unstuck the network
+
+Please upgrade your node to this image: ghcr.io/cryptobauer/taraxa-node:v1.14.2
+
+The compose file has been updated here: [https://github.com/tara-community-initiative/dev-ops/blob/main/docker/compose.yaml](https://github.com/tara-community-initiative/dev-ops/blob/main/docker/compose.yaml)
+
+Fix details:
+
+* pull request: [https://github.com/Taraxa-project/taraxa-node/pull/3108](https://github.com/Taraxa-project/taraxa-node/pull/3108)
+* commit: [https://github.com/Taraxa-project/taraxa-node/compare/master...cryptobauer:taraxa-node:main](https://github.com/Taraxa-project/taraxa-node/compare/master...cryptobauer:taraxa-node:main)
+* build logs: [https://github.com/cryptobauer/taraxa-node/actions/runs/26338376989/job/77535905131](https://github.com/cryptobauer/taraxa-node/actions/runs/26338376989/job/77535905131)&#x20;
+
 ## End-users status
 
 * You cannot withdraw or send tokens from/to the network or exchanges because the network does not accept new transactions.
