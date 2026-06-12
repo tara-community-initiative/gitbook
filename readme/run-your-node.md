@@ -44,7 +44,7 @@ If you have an old docker compose file, make sure that it looks like this:
 services:
 ...
   node:
-    image: ghcr.io/cryptobauer/taraxa-node:v1.14.2
+    image: ghcr.io/cryptobauer/taraxa-node:v1.14.3
     restart: always
     ports:
       - "10002:10002"
